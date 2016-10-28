@@ -18,9 +18,17 @@ public class TweetTester {
      */
     public static void main(String[] args) {
         
-        Scanner scan = new Scanner (System.in);
+      Scanner reader = new Scanner(System.in);//initialize scanner
+      String tweet = reader.nextLine(); // makes tweet
+        int theNumer = tweet.length(); //tweets is number now
+        System.out.println(theNumer); // prints the length
+        
+        
+        /* Scanner scan = new Scanner (System.in);
          String tweet;
          
+         int length = tweet.length();
+         System.out.println("The lenght is: " + length);*/
     }
     
 }
